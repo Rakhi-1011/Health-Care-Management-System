@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Health Heaven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+        body {
+            background-color: #f9fafb;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .admin-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .dashboard-title {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .doctor-management {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .create-doctor-btn {
+            background-color: #48bb78;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: fit-content;
+        }
+
+        .create-doctor-btn:hover {
+            background-color: #38a169;
+            transform: translateY(-2px);
+        }
+
+        .create-doctor-btn:active {
+            transform: translateY(0);
+        }
+
+        .card {
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            color: #718096;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="admin-container">
+        <h1 class="dashboard-title">Admin Dashboard</h1>
+
+    
+        <section class="doctor-management">
+            <h2 class="section-title">Doctor Management</h2>
+            <a href="admincreate.html" class="create-doctor-btn">Create Doctor Account</a>
+        </section>
+
+ 
+        <section class="mt-5">
+            <h2 class="section-title">Additional Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+                <div class="card">
+                    <h3>Manage Doctors</h3>
+                    <p>View, edit, or delete doctor accounts.</p>
+                </div>
+            
+                <div class="card">
+                    <h3>Manage Patients</h3>
+                    <p>View and manage patient records and appointments.</p>
+                </div>
+           
+                <div class="card">
+                    <h3>View Reports</h3>
+                    <p>Generate and view system reports and analytics.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>System Settings</h3>
+                    <p>Configure system settings and preferences.</p>
+                </div>
+            
+                <div class="card">
+                    <h3>Feedback</h3>
+                    <p>View feedback from users and improve services.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Support</h3>
+                    <p>Access support and help documentation.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
