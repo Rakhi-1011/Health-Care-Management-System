@@ -116,7 +116,7 @@ $user_name = $_SESSION['dashname'];
            
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card p-3">
-                        <a class="nav-link" href="healthtips.html">
+                        <a class="nav-link" href="healthtips.php?category=Nutrition Tips">
                             <h4>Nutrition Tips</h4>
                         </a>
                         <p>Get nutrition tips for a healthier life.</p>
@@ -125,7 +125,7 @@ $user_name = $_SESSION['dashname'];
            
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card p-3">
-                        <a class="nav-link" href="healthtips.html">
+                        <a class="nav-link" href="healthtips.php?category=Fitness and Yoga Tips">
                             <h4>Fitness and Yoga Tips</h4>
                         </a>
                         <p>Get fitness and Yoga tips to get fit.</p>
@@ -134,7 +134,7 @@ $user_name = $_SESSION['dashname'];
        
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card p-3">
-                        <a class="nav-link" href="healthtips.html">
+                        <a class="nav-link" href="healthtips.php?category=Mental Wellness">
                             <h4>Mental Wellness</h4>
                         </a>
                         <p>Guided meditation and stress management techniques.</p>

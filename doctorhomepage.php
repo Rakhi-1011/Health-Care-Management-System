@@ -158,7 +158,7 @@ if ($result && $result->num_rows > 0) {
             
                 <div class="col-md-6 col-lg-4">
                     <div class="card p-3">
-                        <a class="nav-link" href="uploadhealthtips.html">
+                        <a class="nav-link" href="update_tips.php">
                             <h4>Upload Health Tips</h4>
                         </a>
                         <p>Share your knowledge by uploading health tips.</p>
